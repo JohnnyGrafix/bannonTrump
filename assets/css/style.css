@@ -1,0 +1,228 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	color: gray;
+}
+h3 {
+	font-size: 1.2rem;
+	color: black;
+}
+.contentBox {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 0px;
+	max-width: 1400px;
+}
+.main {
+   position: relative;
+   height: 550px;
+   width: 100%;
+   max-width: 350px;
+   min-width: 300px;
+   margin-bottom: 200px;
+   border: 1px solid red;
+   }
+.image {
+	position: absolute;
+	margin: auto;
+	width: 100%;
+}
+.words {
+	position: absolute;
+	left: 5%;
+	z-index: 5;
+}
+.buttonDiv {
+	position: absolute;
+	top: 85%;
+	width: 100%;
+	padding: 0px;
+	margin-top: 10px;
+	height: 70px;
+}
+.next {
+	position: absolute;
+	width: 15%;
+	left: 75%;
+	}
+.next:hover {
+	width: 16%;
+}
+.home {
+	position: absolute;
+	width: 15%;
+	left: 5%;
+	}
+.home:hover {
+	width: 16%;
+}
+.back {
+	position: absolute;
+	width: 15%;
+	left: 45%;
+	}
+.back:hover {
+	width: 16%;
+}
+
+/*page1*/
+
+#bannonTrump1 {
+	top: 20%;
+}
+#p1text1 {
+	top: 10%;
+}
+#p1text2 {
+	top: 68%;
+}
+
+/*page2*/
+
+#p2text1 {
+	top: 10%;
+	color: white;
+	font-size: 1.5rem;
+	}
+
+/*page3*/
+
+.timeline {
+	position: absolute;
+	top: 5%;
+	margin: auto;
+	width: 100%;
+}
+#p3text1 {
+	color: red;
+	top: 6%;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+#p3text2 {
+	color: white;
+	top: 25%;
+	font-weight: bold;
+	left: 50%;
+}
+
+/*page4*/
+
+
+#p4text1 {
+	color: red;
+	top: 6%;
+	left: 16%;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+#p4text2 {
+	color: white;
+	top: 25%;
+	font-weight: bold;
+	left: 50%;
+}
+/*page4*/
+
+
+#p5text1 {
+	color: red;
+	top: 6%;
+	left: 66%;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+#p5text2 {
+	color: white;
+	top: 25%;
+	font-weight: bold;
+	left: 50%;
+}
+
+/*page5*/
+
+#p6text1 {
+	color: red;
+	top: 6%;
+	left: 78%;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+#p6text2 {
+	color: white;
+	top: 25%;
+	font-weight: bold;
+	left: 50%;
+}
+#p6text3 {
+	color: white;
+	top: 35%;
+	font-weight: bold;
+	left: 50%;
+}
+
+/*page6*/
+
+#p7text1 {
+	color: red;
+	top: 6%;
+	left: 78%;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+#p7text2 {
+	color: white;
+	top: 25%;
+	font-weight: bold;
+	left: 50%;
+}
+#p7text3 {
+	color: white;
+	top: 45%;
+	font-weight: bold;
+	left: 50%;
+}
+
+/*page6*/
+
+#p8text1 {
+	color: red;
+	top: 6%;
+	left: 10%;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+#p8text2 {
+	color: white;
+	top: 25%;
+	font-weight: bold;
+	left: 10%;
+}
+#p8text3 {
+	color: white;
+	background-color: rgba(128, 130, 133, 0.5);
+	top: 45%;
+	font-weight: bold;
+	padding: 10px;
+	margin: auto;
+}
+
+/*page9*/
+
+#p9text1 {
+	color: red;
+	top: 6%;
+	left: 10%;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+#p9text2 {
+	color: white;
+	top: 62%;
+	font-weight: bold;
+	background-color: grey;
+	padding: 2px 10px;
+}
