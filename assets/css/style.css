@@ -23,7 +23,6 @@ h3 {
    max-width: 350px;
    min-width: 300px;
    margin-bottom: 200px;
-   border: 1px solid red;
    }
 .image {
 	position: absolute;
@@ -42,7 +41,7 @@ h3 {
 	padding: 0px;
 	margin-top: 10px;
 	height: 70px;
-}
+	}
 .next {
 	position: absolute;
 	width: 15%;
@@ -225,4 +224,232 @@ h3 {
 	font-weight: bold;
 	background-color: grey;
 	padding: 2px 10px;
+}
+.ghostmain {
+	display: none;
+}
+
+@media only screen and (min-width: 730px) {
+  .main {
+	  display: none;
+      }
+  .ghostmain {
+      display: block;
+	  position: relative;
+      height: 500px;
+      width: 100%;
+      max-width: 700px;
+      min-width: 300px;
+	  margin-bottom: 300px;
+	  }
+	.ghimage {
+	position: absolute;
+	margin: auto;
+	width: 100%;
+	}
+   .next {
+	   width: 8%;
+	   left: 85%;
+   }
+   .next:hover {
+	   width: 9%;
+   }
+   .back {
+	   width: 8%;
+	   left: 65%;
+   }
+   .back:hover {
+	   width: 9%;
+   }
+   .home {
+	   width: 8%;
+	   left: 5%;
+   }
+   .home:hover {
+	   width: 9%;
+   }
+   
+   
+   .ghwords {
+	   position: absolute;
+	   z-index: 6;
+   }
+   
+   
+   /*ghpage1*/
+   
+   #ghp1text1 {
+	   font-size: 2rem;
+	   color: white;
+	   top: 0px;
+	   left: 5%;
+	   z-index: 5;
+   }
+   #ghp1text2 {
+	   font-size: 1rem;
+	   color: white;
+	   top: 12%;
+	   left: 5%;
+	   z-index: 5;
+   }
+   .ghtimeline {
+	   position: absolute;
+	   top: 10%;
+	   left: 3%;
+	   width: 60%;
+	   z-index: 5;
+   }
+   
+   /*ghpage2*/
+   
+   #ghp2text1 {
+	   font-size: 1.5rem;
+	   color: red;
+	   top: -10px;
+	   left: 3%;
+	   z-index: 5;
+   }
+   #ghp2text2 {
+	   font-size: 1rem;
+	   color: white;
+	   top: 12%;
+	   left: 3%;
+	   z-index: 5;
+   }
+   #ghp2text3 {
+	   font-size: 2rem;
+	   font-weight: bold;
+	   color: white;
+	   top: 40%;
+	   left: 20%;
+	   z-index: 5;
+   }
+   
+   /*ghpage3*/
+   
+    #ghp3text1 {
+	   font-size: 1.5rem;
+	   color: red;
+	   top: -10px;
+	   left: 13%;
+	   z-index: 5;
+   }
+   #ghp3text2 {
+	   font-size: 1rem;
+	   color: white;
+	   top: 12%;
+	   left: 3%;
+	   z-index: 5;
+   }
+   
+   /*ghpage4*/
+   
+    #ghp4text1 {
+	   font-size: 1.5rem;
+	   color: red;
+	   top: -10px;
+	   left: 43%;
+	   z-index: 5;
+   }
+   #ghp4text2 {
+	   font-size: 1rem;
+	   color: white;
+	   top: 12%;
+	   left: 3%;
+	   z-index: 5;
+   }
+   
+    /*ghpage5*/
+   
+    #ghp5text1 {
+	   font-size: 1.5rem;
+	   color: red;
+	   top: -10px;
+	   left: 53%;
+	   z-index: 5;
+   }
+   #ghp5text2 {
+	   font-size: 1rem;
+	   color: white;
+	   top: 12%;
+	   left: 25%;
+	   margin-right: 40%;
+	   z-index: 5;
+   }
+    #ghp5text3 {
+	   font-size: 1rem;
+	   color: white;
+	   top: 25%;
+	   left: 25%;
+	   margin-right: 40%;
+	   z-index: 5;
+   }
+   
+   /*ghpage6*/
+   
+    #ghp6text1 {
+	   font-size: 1.5rem;
+	   color: red;
+	   top: -10px;
+	   left: 53%;
+	   z-index: 5;
+   }
+   #ghp6text2 {
+	   font-size: 1rem;
+	   color: white;
+	   top: 12%;
+	   left: 25%;
+	   margin-right: 40%;
+	   z-index: 5;
+   }
+    #ghp6text3 {
+	   font-size: 1rem;
+	   color: white;
+	   top: 25%;
+	   left: 25%;
+	   margin-right: 40%;
+	   z-index: 5;
+   }
+   
+   /*ghpage7*/
+    
+	#bannonTrumpfaces {
+		width: 70%;
+		top: 8%;
+	}
+    #ghp7text1 {
+	   font-size: 1.5rem;
+	   color: red;
+	   top: -20px;
+	   left: 73%;
+	   z-index: 5;
+   }
+   #ghp7text2 {
+	   font-size: 1rem;
+	   color: black;
+	   top: 5%;
+	   left: 72%;
+	   margin-right: 5%;
+	   z-index: 5;
+   }
+    #ghp7text3 {
+	   font-size: 1rem;
+	   color: black;
+	   top: 22%;
+	   left: 72%;
+	   margin-right: 5%;
+	   z-index: 5;
+   }
+   #ghp7text4 {
+	   font-size: 1rem;
+	   color: black;
+	   top: 52%;
+	   left: 72%;
+	   margin-right: 5%;
+	   z-index: 5;
+   }
+   
+   
+   
+   
 }
